@@ -7,8 +7,8 @@ package compositepattern;
 public class FileSystemCompositeExample {
     public static void main(String[] args) {
         // Creating individual files
-        FileSystemComponent file1 = new File("file1.txt");
-        FileSystemComponent file2 = new File("file2.txt");
+        File file1 = new File("file1.txt");
+        File file2 = new File("file2.txt");
 
 
         // Creating directories and adding files to them
